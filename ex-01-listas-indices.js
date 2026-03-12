@@ -144,6 +144,8 @@ Crie uma lista (com const) chamado "frutas" com os itens: "maçã", "banana", "l
 
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta01 = false
+const frutas = ["maçã", "banana", "laranja", "uva", "pêra", "manga"]
+export const resposta01 = frutas[1]
 
 /* Questão 2
 Ainda utilizando o array criado na questão 1, armazene na variável "resposta02"
@@ -152,6 +154,7 @@ o índice deste último item.
 */
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta02 = false
+export const resposta02 = frutas[frutas.length - 1]
 
 /* Questão 3
 Continuando com o array criado na questão 1, altere o quarto item da lista para
@@ -159,6 +162,8 @@ a fruta "abacaxi". Na variável "resposta03" envie a lista completa com a nova f
 */
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta03 = false
+frutas[3] = "abacaxi"
+export const resposta03 = frutas
 
 /* Questão 4
 Ainda com a lista da questão 1, acrescente a fruta "limão" no final da lista, e
@@ -166,6 +171,8 @@ envie a lista inteira na variável "resposta04".
 */
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta04 = false
+frutas[frutas.length] = "limão"
+export const resposta04 = frutas
 
 /* Questão 5
 Para finalizar com o array da questão 1, troque as posições dos itens "laranja"
@@ -173,6 +180,11 @@ e "manga", e armazene a lista modificada completa na variável "resposta05".
 */
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta05 = false
+let temp = frutas[2]
+frutas[2] = frutas[5]
+frutas[5] = temp
+
+export const resposta05 = frutas
 
 /* Questão 6
 Crie um array (também com const ao invés de let) chamado "numeros" com os valores
@@ -183,6 +195,10 @@ número no índice zero multiplicado pelo item no penúltimo índice.
 
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta06 = false
+onst numeros = [7, 2, 4, 9, 8, 6, 1]
+
+const penultimoIndice = numeros.length - 2
+export const resposta06 = numeros[0] * numeros[penultimoIndice]
 
 /* Questão 7
 Seguindo com a lista criada na questão 7, utilizando os índices de cada item,
@@ -192,6 +208,17 @@ variável "resposta07"
 */
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta07 = false
+const tempUltimo = numeros[6]
+
+numeros[6] = numeros[5]
+numeros[5] = numeros[4]
+numeros[4] = numeros[3]
+numeros[3] = numeros[2]
+numeros[2] = numeros[1]
+numeros[1] = numeros[0]
+numeros[0] = tempUltimo
+
+export const resposta07 = numeros
 
 /* Questão 8
 Continuando com a lista da questão 7, adicione no final da lista o resultado
@@ -200,6 +227,19 @@ variável "resultado08". É proibido usar métodos de listas e funções.
 */
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta08 = false
+const soma =
+numeros[0] +
+numeros[1] +
+numeros[2] +
+numeros[3] +
+numeros[4] +
+numeros[5] +
+numeros[6]
+
+numeros[numeros.length] = soma
+
+export const resposta08 = numeros
+
 
 /* Questão 9
 Ainda com a lista da questão 7, mude:
@@ -210,6 +250,12 @@ E retorne a lista completa na variável "resultado09"
 */
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta09 = false
+let temp2 = numeros[1]
+numeros[1] = numeros[5]
+numeros[5] = numeros[3]
+numeros[3] = temp2
+
+export const resposta09 = numeros
 
 /* Questão 10
 Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
@@ -221,4 +267,10 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta10 = false
+const novaLista = [
+numeros[numeros.length - 1],
+numeros[numeros.length - 2],
+numeros[numeros.length - 3]
+]
 
+export const resposta10 = novaLista
