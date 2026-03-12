@@ -112,17 +112,24 @@ método push, adicione nesta lista as profissões "programador(a)", "designer",
 envie a lista com as profissões adicionadas na resposta01.
 */
 // Array na linha abaixo
-
+const profissoes = []
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta01 = false
+export const resposta01 = profissoes.push("programador(a)", "designer",
+"engenheiro(a)", "veterinário(a)", "administrador(a)")
+
 
 /* Questão 2
 Continuando com a lista de profissões da questão 1, use o método pop para remover
 o último item da lista e armazená-lo em uma variável. Envie esta variável na
 resposta02.
 */
+const itemRemovido = profissoes.pop()
+["programador(a)", "designer", 
+"engenheiro(a)", "veterinário(a)", "administrador(a)"]
+itemRemovido === "administrador(a)"
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta02 = false
+export const resposta02 = itemRemovido
+
 
 /* Questão 3
 Seguindo com a mesma lista de profissões da questão 1, use o método unshift
@@ -130,15 +137,22 @@ para adicionar a profissão "músico(a)" no início da lista, e retorne
 a lista completa na resposta03.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta03 = false
+const profissoes = ["programador(a)", "designer",
+"engenheiro(a)", "veterinário(a)", "administrador(a)"]
+profissoes.unshift("músico(a)")
+export const resposta03 = profissoes
 
 /* Questão 4
 Ainda com a lista da questão 1, crie uma nova variável e use o método "shift" 
 na lista de profissões para remover o atual primeiro item da lista e guardá-lo
 nesta variável. Envie a variável com a profissão removida na resposta04.
 */
+const itemRemovido = profissoes.shift()
+["programador(a)", "designer",
+"engenheiro(a)", "veterinário(a)", "administrador(a)"]
+itemRemovido === "programador(a)"
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta04 = false
+export const resposta04 = itemRemovido
 
 /* Questão 5
 Continuando com a lista da questão 1, crie uma lista com as profissões removidas
@@ -152,9 +166,14 @@ export const resposta05 = false
 /* Questão 6
 Finalizando com a lista da questão 1, use nela o método reverse para inverter
 a ordem da lista, e envie a lista com sua ordem invertida na resposta06.
+
 */
+const profissoes = ["programador(a)", "designer",
+"engenheiro(a)", "veterinário(a)", "administrador(a)"]
+profissoes.reverse()
+
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta06 = false
+export const resposta06 = profissoes
 
 /* Questão 7
 Crie três listas vazias (usando const e não let), uma chamada "vertebrados", 
