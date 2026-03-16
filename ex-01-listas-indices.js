@@ -1,4 +1,4 @@
-/*
+/* //
 Assunto 01 - Listas e índices
 
 Em quaisquer linguagens de programação nós encontramos o conceito de "Estruturas de dados":
