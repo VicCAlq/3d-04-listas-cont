@@ -1,4 +1,4 @@
-/*
+/* //
 Assunto 02 - Métodos de listas
 
 Para além de manipulação direta de listas utilizando índices, podemos modificá-las
@@ -152,7 +152,7 @@ método "concat" na lista de profissões para adicionar esta nova lista no final
 da lista de profissões da questão 1. Envie a lista completa na resposta05
 */
 // Operações necessárias e resposta a partir da linha abaixo
-let removidos = [removidoPush, removidoShift];
+let removidos = [removidoPop, removidoShift];
 export const resposta05 = profissoes.concat(removidos)
 
 
