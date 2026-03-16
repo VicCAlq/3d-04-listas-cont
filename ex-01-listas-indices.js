@@ -176,9 +176,9 @@ Para finalizar com o array da questão 1, troque as posições dos itens "laranj
 e "manga", e armazene a lista modificada completa na variável "resposta05".
 */
 // Operações necessárias e resposta a partir da linha abaixo
-[frutas[2],frutas[5]] = [frutas[5], frutas[2]];  
-export const resposta05 = false
-console.log(frutas)
+;[frutas[2],frutas[5]] = [frutas[5], frutas[2]] 
+export const resposta05 = frutas
+
 
 /* Questão 6
 Crie um array (também com const ao invés de let) chamado "numeros" com os valores
@@ -197,8 +197,20 @@ avance eles em uma posição (e mande o último item para a primeira posição),
 de modo que a lista se torne 1, 7, 2, 4, 9, 8, 6. Armazene a lista na
 variável "resposta07"
 */
-// Operações necessárias e resposta a partir da linha abaixo
-const numeru = [numeros[6],numeros[0],numeros[1],numeros[2],numeros[3],numeros[4],numeros[5]]
+// Operações necessárias e resposta a partir da linha abaixo                         7, 2, 4, 9, 8, 6, 1         1, 7, 2, 4, 9, 8, 6.
+const numeru = numeros[6]
+// [7, 2, 4, 9, 8, 6, 1] e numeru = 1
+numeros[6] = numeros[5]
+// [7, 2, 4, 9, 8, 6, 6]
+numeros[5] = numeros[4]
+// [7, 2, 4, 9, 8, 8, 6]
+numeros[4] = numeros[3]
+// [7, 2, 4, 9, 9, 8, 6]
+numeros[3] = numeros[2]
+numeros[2] = numeros[1]
+numeros[1] = numeros[0]
+numeros[0] = numeru
+
 export const resposta07 = numeru
 /* Questão 8
 Continuando com a lista da questão 7, adicione no final da lista o resultado
