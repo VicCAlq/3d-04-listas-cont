@@ -188,8 +188,15 @@ fiquem na frente dos animais inicialmente pertencentes a lista de "vertebrados".
 Envie a lista animais modificada na resposta08.
 */
 // Operações necessárias e resposta a partir da linha abaixo
+let invertebrado3 = animais.pop();
+let invertebrado2 = animais.pop();
+let invertebrado1 = animais.pop();
+animais.unshift(invertebrado3);
+animais.unshift(invertebrado2);
+animais.unshift(invertebrado1);
 
-export const resposta08 = false
+
+export const resposta08 = animais
 
 /* Questão 9
 Ainda utilizando a lista "animais" da questão 7, use o método reverse na lista,
@@ -197,6 +204,7 @@ e após isso use os métodos shift e push para mover os três itens da frente pa
 o final da fila, um de cada vez. Envie a lista animais modificada na resposta09.
 */
 // Operações necessárias e resposta a partir da linha abaixo
+
 export const resposta09 = false
 
 /* Questão 10
@@ -229,7 +237,7 @@ questão. Use o método "concat" para adicionar os itens "topázio", "lazurita" 
 export const resposta12 = false
 
 /* Questão 13
-Seguindo com a lista de pedras, use os métodos shift e pop para mover os três
+Seguindo com a lista de pedras, use os métodos shift e push para mover os três
 primeiros itens para o final da lista. Após isso, aplique o método reverse, e
 envie a lista na resposta13.
 */

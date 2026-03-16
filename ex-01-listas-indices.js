@@ -141,7 +141,7 @@ Crie uma lista (com const) chamado "frutas" com os itens: "maçã", "banana", "l
 "uva", "pêra", "manga". Armazene na variável "resposta01" o segundo item dessa lista.
 */
 // Array na linha abaixo
-const frutas = ["maçã", "banana", "laranja", "uva", "pêra", "manga"];
+let frutas = ["maçã", "banana", "laranja", "uva", "pêra", "manga"];
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta01 = frutas[1]
 
@@ -174,7 +174,7 @@ Para finalizar com o array da questão 1, troque as posições dos itens "laranj
 e "manga", e armazene a lista modificada completa na variável "resposta05".
 */
 // Operações necessárias e resposta a partir da linha abaixo
-[frutas[2], frutas[5]] = [frutas[5], frutas[2]];
+;[frutas[2], frutas[5]] = [frutas[5], frutas[2]]
 export const resposta05 = frutas
 
 /* Questão 6
@@ -183,7 +183,7 @@ Crie um array (também com const ao invés de let) chamado "numeros" com os valo
 número no índice zero multiplicado pelo item no penúltimo índice.
 */
 // Array na linha abaixo
-const numeros = [7, 2, 4, 9, 8, 6, 1]
+let numeros = [7, 2, 4, 9, 8, 6, 1]
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta06 = numeros[0] * numeros[5];
 
@@ -194,11 +194,14 @@ de modo que a lista se torne 1, 7, 2, 4, 9, 8, 6. Armazene a lista na
 variável "resposta07"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-numeros[0] = temporario2;
-numeros[numeros.length - 1] = temporario;
-[numeros[0], numeros[1], numeros[2], numeros[3], numeros[4], numeros[5], numeros[6]] = [numeros[6], numeros[0], numeros[1], numeros[2], numeros[3], numeros[4], numeros[5]];
-const temporario = numeros[0];
-const temporario2 = numeros[numeros.length - 1];
+let ultimo = numeros[numeros.length - 1];
+numeros [6] = numeros[5];
+numeros [5] = numeros[4];
+numeros [4] = numeros[3];
+numeros [3] = numeros[2];
+numeros [2] = numeros[1];
+numeros [1] = numeros[0]
+numeros [0] = ultimo
 
 export const resposta07 = numeros
 
@@ -219,8 +222,11 @@ Ainda com a lista da questão 7, mude:
 E retorne a lista completa na variável "resultado09"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-
-export const resposta09 = false
+let sexto = numeros[5]
+numeros[3] = numeros[1]
+numeros[5] = numeros[3]
+numeros[1] = sexto
+export const resposta09 = numeros
 
 /* Questão 10
 Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
@@ -229,7 +235,7 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 - O terceiro item da nova lista é o antepenúltimo da anterior
 */
 // Nova lista abaixo
-
+let novalista [numeros[numeros.length - 1], numeros[numeros.length - 2], numeros[numeros.length - 3]]
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta10 = false
+export const resposta10 = novalista
 
