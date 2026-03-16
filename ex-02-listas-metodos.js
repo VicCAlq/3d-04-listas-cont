@@ -193,7 +193,9 @@ Envie a lista animais modificada na resposta08.
 // Operações necessárias e resposta a partir da linha abaixo
 
 animais.unshift(animais.pop())
-export const resposta08 = false
+animais.unshift(animais.pop())
+animais.unshift(animais.pop())
+export const resposta08 = animais
 
 /* Questão 9
 Ainda utilizando a lista "animais" da questão 7, use o método reverse na lista,
@@ -201,7 +203,11 @@ e após isso use os métodos shift e push para mover os três itens da frente pa
 o final da fila, um de cada vez. Envie a lista animais modificada na resposta09.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta09 = false
+animais.reverse()
+animais.push(animais.shift())
+animais.push(animais.shift())
+animais.push(animais.shift())
+export const resposta09 = animais
 
 /* Questão 10
 Finalizando com a lista "animais" da questão 7, use o método concat na lista
@@ -211,7 +217,10 @@ adicionar os animais "lesma", "borboleta" e "ostra" no final da lista.
 Envie a lista animais modificada na resposta10.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta10 = false
+animais = animais.concat(["carcará", "morcego", "salmão"])
+animais.reverse() 
+animais = animais.concat(["lesma", "borboleta", "ostra"])
+export const resposta10 = animais
 
 /* Questão 11
 Crie (usando const) uma lista vazia chamada "pedras", e use nela o método concat
