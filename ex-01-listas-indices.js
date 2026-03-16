@@ -213,7 +213,7 @@ variável "resultado08". É proibido usar métodos de listas e funções.
 */
 // Operações necessárias e resposta a partir da linha abaixo
 
-export const resposta08 = false;
+export const resposta08 = novoNumeros;
 
 /* Questão 9
 Ainda com a lista da questão 7, mude:

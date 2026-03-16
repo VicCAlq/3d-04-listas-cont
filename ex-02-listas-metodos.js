@@ -220,14 +220,19 @@ animais = animais.concat(junta2)
 export const resposta10 = animais;
 
 /* Questão 11
-Crie (usando const) uma lista vazia chamada "pedras", e use nela o método concat
+Crie uma lista vazia chamada "pedras", e use nela o método concat
 para adicionar os itens "quartzo", "basalto" e "granito". Use o método
 reverse nessa lista, e após isso use o método push para adicionar os itens
 "calcário", "mármore" e "mica". Use o método reverse novamente, e envie a lista
 final na resposta11.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta11 = false
+let pedras = [];
+pedras = pedras.concat("quartzo", "basalto", "granito");
+pedras.reverse();
+pedras.push("calcário", "mármore", "mica");
+pedras.reverse();
+export const resposta11 = pedras;
 
 /* Questão 12
 Continuando com a lista criada na questão 11, use o método unshift para adicionar
