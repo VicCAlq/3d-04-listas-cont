@@ -59,7 +59,7 @@ const lista07 = [
   numeros[2],
   numeros[3],
   numeros[4],
-  numeros[5]
+  numeros[5],
 ]
 
 export const resposta07 = lista07
@@ -75,7 +75,7 @@ const soma =
   lista07[3] +
   lista07[4] +
   lista07[5] +
-  lista07[6]
+  lista07[6] 
 
 const lista08 = [
   lista07[0],
@@ -93,9 +93,9 @@ export const resposta08 = lista08
 
 /* Questão 9
 Mude:
-- O segundo item para a quarta posição
-- O quarto item para a sexta posição
-- O sexto item para a segunda posição
+O segundo item para a quarta posição
+O quarto item para a sexta posição
+O sexto item para a segunda posição
 */
 const lista09 = [
   lista07[0],
@@ -104,7 +104,7 @@ const lista09 = [
   lista07[1],
   lista07[4],
   lista07[3],
-  lista07[6]
+  lista07[6],
 ]
 
 export const resposta09 = lista09
@@ -112,14 +112,14 @@ export const resposta09 = lista09
 
 /* Questão 10
 Crie uma nova lista com:
-- último item
-- penúltimo item
-- antepenúltimo item
+último item
+penúltimo item
+antepenúltimo item
 */
 const lista10 = [
   lista07[lista07.length - 1],
   lista07[lista07.length - 2],
-  lista07[lista07.length - 3]
+  lista07[lista07.length - 3],
 ]
 
 export const resposta10 = lista10
