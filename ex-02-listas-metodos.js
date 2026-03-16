@@ -152,7 +152,7 @@ método "concat" na lista de profissões para adicionar esta nova lista no final
 da lista de profissões da questão 1. Envie a lista completa na resposta05
 */
 // Operações necessárias e resposta a partir da linha abaixo
-let profissoesremovidas = [ultimo.concat(exprimeiro)]
+let profissoesremovidas = [ultimo].concat(exprimeiro)
 export const resposta05 = profissoesremovidas
 
 /* Questão 6
@@ -194,8 +194,6 @@ let invertebrado1 = animais.pop();
 animais.unshift(invertebrado3);
 animais.unshift(invertebrado2);
 animais.unshift(invertebrado1);
-
-
 export const resposta08 = animais
 
 /* Questão 9
@@ -204,8 +202,14 @@ e após isso use os métodos shift e push para mover os três itens da frente pa
 o final da fila, um de cada vez. Envie a lista animais modificada na resposta09.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-
-export const resposta09 = false
+animais.reverse();
+let primeiroitem = animais.shift();
+let segundoitem = animais.shift();
+let terceiroitem = animais.shift();
+animais.push(primeiroitem);
+animais.push(segundoitem);
+animais.push(terceiroitem);
+export const resposta09 = animais
 
 /* Questão 10
 Finalizando com a lista "animais" da questão 7, use o método concat na lista
@@ -215,7 +219,11 @@ adicionar os animais "lesma", "borboleta" e "ostra" no final da lista.
 Envie a lista animais modificada na resposta10.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta10 = false
+
+animais = animais.concat(["carcará", "mocergo", "salmão"]);
+animais.reverse();
+animais = animais.concat(["lesma", "borboleta", "ostra"]);
+export const resposta10 = animais
 
 /* Questão 11
 Crie (usando const) uma lista vazia chamada "pedras", e use nela o método concat
@@ -225,7 +233,12 @@ reverse nessa lista, e após isso use o método push para adicionar os itens
 final na resposta11.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta11 = false
+let pedras = [];
+pedras = pedras.concat("quartzo", "basalto", "granito");
+pedras.reverse();
+pedras.push("calcário", "mármore", "mica");
+pedras.reverse();
+export const resposta11 = pedras
 
 /* Questão 12
 Continuando com a lista criada na questão 11, use o método unshift para adicionar
@@ -234,7 +247,10 @@ questão. Use o método "concat" para adicionar os itens "topázio", "lazurita" 
 "ônix" ao final desta lista, e retorne-a na resposta12.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta12 = false
+pedras.unshift("jade", "obsidiana", "zircônio")
+pedras = pedras.concat(["topázio", "lazurita", "ônix"])
+
+export const resposta12 = pedras
 
 /* Questão 13
 Seguindo com a lista de pedras, use os métodos shift e push para mover os três
@@ -242,12 +258,24 @@ primeiros itens para o final da lista. Após isso, aplique o método reverse, e
 envie a lista na resposta13.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta13 = false
+let variavel1 = pedras.shift()
+let variavel2 = pedras.shift()
+let variavel3 = pedras.shift()
+pedras.push(variavel1, variavel2, variavel3)
+pedras.reverse()
+export const resposta13 = pedras
 
 /* Questão 14
 Finalizando com a lista de pedras, use o método pop para remover os 6 itens finais
 da lista e armazene-os em uma lista nova. Envie esta lista nova na resposta 14.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta14 = false
+let p1 = pedras.pop()
+let p2 = pedras.pop()
+let p3 = pedras.pop()
+let p4 = pedras.pop()
+let p5 = pedras.pop()
+let p6 = pedras.pop()
+let removidos = [p1, p2, p3, p4, p5, p6]
+export const resposta14 = removidos
 
