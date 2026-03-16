@@ -234,5 +234,5 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 // Nova lista abaixo
 
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta10 = false;
+export const resposta10 = false; 
 
