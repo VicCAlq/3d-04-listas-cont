@@ -152,7 +152,7 @@ nesta variável. Envie a variável com a profissão removida na resposta04.
 let primeiro = profissoes[0]
 profissoes.shift()
 
-export const resposta04 = profissoes
+export const resposta04 = primeiro
 
 /* Questão 5
 Continuando com a lista da questão 1, crie uma lista com as profissões removidas
@@ -172,7 +172,8 @@ Finalizando com a lista da questão 1, use nela o método reverse para inverter
 a ordem da lista, e envie a lista com sua ordem invertida na resposta06.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta06 = false
+profissoes.reverse()
+export const resposta06 = profissoes
 
 /* Questão 7
 Crie três listas vazias (usando const e não let), uma chamada "vertebrados", 
@@ -184,7 +185,21 @@ lista "animais" para juntar o conteúdo das listas "vertebrado" e "invertebrado"
 dentro de si, nesta exata ordem, e retorne esta lista na resposta07.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta07 = false
+let vertebrados = []
+let invertebrados = []
+let animais = []
+
+vertebrados.push("elefante")
+vertebrados.push("leopardo")
+vertebrados.push("porco-espinho")
+
+invertebrados.push("polvo")
+invertebrados.push("formiga")
+invertebrados.push("caranguejo")
+
+animais = vertebrados.concat(invertebrados)
+
+export const resposta07 = animais
 
 /* Questão 8
 Seguindo com a lista "animais" criada na questão 7, use os métodos pop e unshift
@@ -193,7 +208,14 @@ fiquem na frente dos animais inicialmente pertencentes a lista de "vertebrados".
 Envie a lista animais modificada na resposta08.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta08 = false
+animais.unshift("polvo")
+animais.unshift("formiga")
+animais.unshift("caranguejo")
+  
+animais.pop()
+animais.pop()
+animais.pop()
+export const resposta08 = animais
 
 /* Questão 9
 Ainda utilizando a lista "animais" da questão 7, use o método reverse na lista,
@@ -201,7 +223,15 @@ e após isso use os métodos shift e push para mover os três itens da frente pa
 o final da fila, um de cada vez. Envie a lista animais modificada na resposta09.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta09 = false
+animais.reverse
+animais.shift()
+animais.shift()
+animais.shift()
+
+animais.push("polvo")
+animais.push("formiga")
+animais.push("caranguejo")
+export const resposta09 = animais
 
 /* Questão 10
 Finalizando com a lista "animais" da questão 7, use o método concat na lista
