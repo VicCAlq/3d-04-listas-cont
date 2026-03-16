@@ -112,9 +112,9 @@ método push, adicione nesta lista as profissões "programador(a)", "designer",
 envie a lista com as profissões adicionadas na resposta01.
 */
 // Array na linha abaixo
-
+const profissoes = ["programador(a)", "designer","engenheiro(a)", "veterinário(a)", "administrador(a)"]
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta01 = false
+export const resposta01 = false 
 
 /* Questão 2
 Continuando com a lista de profissões da questão 1, use o método pop para remover
