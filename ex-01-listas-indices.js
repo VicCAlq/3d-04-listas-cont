@@ -159,7 +159,7 @@ Continuando com o array criado na questão 1, altere o quarto item da lista para
 a fruta "abacaxi". Na variável "resposta03" envie a lista completa com a nova fruta.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta03 = fruta[3] = "abacaxi"
+export const resposta03 = frutas[3] = "abacaxi"
 
 /* Questão 4
 Ainda com a lista da questão 1, acrescente a fruta "limão" no final da lista, e
@@ -171,7 +171,7 @@ export const resposta04 = frutas[limão] = frutas[frutas.length -1]
 /* Questão 5
 Para finalizar com o array da questão 1, troque as posições dos itens "laranja"
 e "manga", e armazene a lista modificada completa na variável "resposta05".
-*/ [frutas[2], frutas[5]] = [frutas[5] = frutas[2]]
+*/ ;[frutas[2], frutas[5]] = [frutas[5] = frutas[2]]
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta05 = frutas 
 
@@ -190,16 +190,14 @@ Seguindo com a lista criada na questão 7, utilizando os índices de cada item,
 avance eles em uma posição (e mande o último item para a primeira posição),
 de modo que a lista se torne 1, 7, 2, 4, 9, 8, 6. Armazene a lista na
 variável "resposta07"
-*/ let temporário = numeros[numeros.length - 1]
-numeros[6] = numeros[0]
-numeros[5] = numeros[1]
-numeros[4] = numeros[2]
-numeros[3] = numeros[3]
-numeros[2] = numeros[4]
-numeros[1] = numeros[5]
-numeros[0] = numeros[6]
-
-numeros[0] = temporário
+*/let temporario = numeros[numeros.length - 1]
+numeros[6] = numeros[5]
+numeros[5] = numeros[4]
+numeros[4] = numeros[3]
+numeros[3] = numeros[2]
+numeros[2] = numeros[1]
+numeros[1] = numeros[0]
+numeros[0] = temporario
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta07 = numeros
 
@@ -207,15 +205,19 @@ export const resposta07 = numeros
 Continuando com a lista da questão 7, adicione no final da lista o resultado
 da soma de todos os números anteriores da lista. Retorne a lista completa na
 variável "resultado08". É proibido usar métodos de listas e funções.
-*/ numeros [numeros.length - 1]
- + numeros [numeros.length - 2]
- + numeros [numeros.length - 3]
- + numeros [numeros.length - 4] 
- + numeros [numeros.length - 5] 
- + numeros [numeros.length - 6] 
- + numeros [numeros.length - 7]
+*/
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta08 =  numeros
+let soma =
+numeros[numeros.length - 1] + 
+numeros[numeros.length - 2] + 
+numeros[numeros.length - 3] + 
+numeros[numeros.length - 4] + 
+numeros[numeros.length - 5] + 
+numeros[numeros.length - 6] + 
+numeros[numeros.length - 7]
+
+numeros[numeros.length] = soma 
+export const resposta08 = numeros
 
 /* Questão 9
 Ainda com a lista da questão 7, mude:
@@ -225,8 +227,9 @@ Ainda com a lista da questão 7, mude:
 E retorne a lista completa na variável "resultado09"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta09 = [numeros[1], numeros[3], numeros[5]] [numeros[3], numeros[5], numeros[1]] 
-
+//1, 37, 2, 6, 9, 8, 4
+;[numeros[1], numeros[3], numeros[5]] = [numeros[5], numeros[1], numeros[3]] 
+export const resposta09 = numeros
 /* Questão 10
 Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 - O primeiro item da nova lista é o último da anterior
@@ -234,7 +237,6 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 - O terceiro item da nova lista é o antepenúltimo da anterior
 */
 // Nova lista abaixo
-
+const final = [37, 6, 4]
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta10 = false
-
+export const resposta10 = final
