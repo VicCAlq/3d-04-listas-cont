@@ -145,6 +145,7 @@ const frutas = ["maçã", "banana", "laranja", "uva", "pêra", "manga"]
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta01 = frutas[1]
 
+
 /* Questão 2
 Ainda utilizando o array criado na questão 1, armazene na variável "resposta02"
 o último item da lista. Use a propriedade "length" para auxiliar a encontrar
@@ -152,6 +153,7 @@ o índice deste último item.
 */
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta02 = frutas[frutas.length-1]
+
 
 /* Questão 3
 Continuando com o array criado na questão 1, altere o quarto item da lista para
@@ -166,7 +168,7 @@ Ainda com a lista da questão 1, acrescente a fruta "limão" no final da lista, 
 envie a lista inteira na variável "resposta04".
 */
 // Operações necessárias e resposta a partir da linha abaixo
-frutas[frutas.lenght] = "limão"
+frutas[frutas.length] = "limão"
 export const resposta04 = frutas
 
 /* Questão 5
@@ -174,7 +176,7 @@ Para finalizar com o array da questão 1, troque as posições dos itens "laranj
 e "manga", e armazene a lista modificada completa na variável "resposta05".
 */
 // Operações necessárias e resposta a partir da linha abaixo
-[frutas[2],frutas[5]] = [frutas[5],frutas[2]]
+;[frutas[2],frutas[5]] = [frutas[5],frutas[2]]
 export const resposta05 = frutas
 
 /* Questão 6
@@ -228,7 +230,7 @@ Ainda com a lista da questão 7, mude:
 E retorne a lista completa na variável "resultado09"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-[numeros[2], numeros[4], numeros[6]] = [numeros[4], numeros[6], numeros[2]]
+;[numeros[2], numeros[4], numeros[6]] = [numeros[4], numeros[6], numeros[2]]
 export const resposta09 = numeros
 
 /* Questão 10

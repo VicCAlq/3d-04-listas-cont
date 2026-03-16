@@ -172,13 +172,14 @@ lista "animais" para juntar o conteúdo das listas "vertebrado" e "invertebrado"
 dentro de si, nesta exata ordem, e retorne esta lista na resposta07.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-const vertebrados = []
-const invertebrados = []
-const animais = []
+let vertebrados = []
+let invertebrados = []
+let animais = []
 vertebrados.push("elefante", "leopardo", "porco-espinho")
 invertebrados.push("polvo", "formiga", "caranguejo")
 animais = vertebrados.concat(invertebrados)
 export const resposta07 = animais
+
 
 /* Questão 8
 Seguindo com a lista "animais" criada na questão 7, use os métodos pop e unshift
@@ -189,8 +190,8 @@ Envie a lista animais modificada na resposta08.
 // Operações necessárias e resposta a partir da linha abaixo
 let a = animais.pop()
 let b = animais.pop()
-let c = a
-animais.unshift([a,b,c])
+let c = animais.pop()
+animais.unshift(a,b,c)
 export const resposta08 = animais
 
 /* Questão 9
@@ -199,7 +200,16 @@ e após isso use os métodos shift e push para mover os três itens da frente pa
 o final da fila, um de cada vez. Envie a lista animais modificada na resposta09.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta09 = false
+let u = animais.reverse()
+
+let u1 = u.shift(animais[0])
+u.push(u1)
+let u2 = u.shift(animais[1])
+u.push(u2)
+let u3 = u.shift(animais[2])
+u.push(u3)
+
+export const resposta09 = u
 
 /* Questão 10
 Finalizando com a lista "animais" da questão 7, use o método concat na lista
@@ -209,6 +219,8 @@ adicionar os animais "lesma", "borboleta" e "ostra" no final da lista.
 Envie a lista animais modificada na resposta10.
 */
 // Operações necessárias e resposta a partir da linha abaixo
+let s1 = ["carcará", "morcego", "salmão"]
+
 export const resposta10 = false
 
 /* Questão 11
