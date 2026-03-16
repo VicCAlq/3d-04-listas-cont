@@ -123,11 +123,11 @@ let primeiroItemRemovido = profissoes.shift();
 export const resposta04 = primeiroItemRemovido;
 
 /* Questão 5 */
-let listaRemovidos = [profissaoRemovida, primeiroItemRemovido];
-export const resposta05 = profissoes.concat(listaRemovidos);
+let listaRemovidos = [profissaoRemovida, primeiroItemRemovido];  
+export const resposta05 = profissoes.concat(listaRemovidos);l
 
 /* Questão 6 */
-profissoes.reverse();
+profissoes.reverse();  
 export const resposta06 = profissoes;
 
 /* Questão 7 */
@@ -137,6 +137,7 @@ const animais = [];
 
 vertebrados.push("elefante", "leopardo", "porco-espinho");
 invertebrados.push("polvo", "formiga", "caranguejo");
+
 
 animais.push(...vertebrados.concat(invertebrados));
 export const resposta07 = animais;
@@ -155,31 +156,31 @@ export const resposta09 = animais;
 /* Questão 10 */
 animais = animais.concat(["carcará", "morcego", "salmão"]);
 animais.reverse();
-animais = animais.concat(["lesma", "borboleta", "ostra"]);
+animais = animais.concat(["lesma", "borboleta", "ostra"]); 
 export const resposta10 = animais;
 
 /* Questão 11 */
 let pedras = [];
-pedras = pedras.concat(["quartzo", "basalto", "granito"]);
-pedras.reverse();
-pedras.push("calcário", "mármore", "mica");
-pedras.reverse();
+pedras = pedras.concat(["quartzo", "basalto", "granito"]);  
+pedras.reverse();  
+pedras.push("calcário", "mármore", "mica");  
+pedras.reverse(); 
 export const resposta11 = pedras;
 
 /* Questão 12 */
-pedras.unshift("jade", "obsidiana", "zircônio");
-pedras = pedras.concat(["topázio", "lazurita", "ônix"]);
+pedras.unshift("jade", "obsidiana", "zircônio");  
+pedras = pedras.concat(["topázio", "lazurita", "ônix"]);  
 export const resposta12 = pedras;
 
 /* Questão 13 */
-pedras.shift();
-pedras.pop();
-pedras.reverse();
+pedras.shift();  
+pedras.pop();  
+pedras.reverse();  
 export const resposta13 = pedras;
 
 /* Questão 14 */
 let pedrasRemovidas = [];
 for (let i = 0; i < 6; i++) {
-    pedrasRemovidas.push(pedras.pop());
+    pedrasRemovidas.push(pedras.pop());  
 }
 export const resposta14 = pedrasRemovidas;
