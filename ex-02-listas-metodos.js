@@ -65,7 +65,7 @@ exPrimeiroItem === ""Esse"
 
 4. unshift: O método "unshift", sem tradução direta, faz o "oposto" do que o
             "shift" faz, ou seja, ele funciona como o "push", mas para o começo
-            da lista. Ele insere um ou mmais valores novos no início da lista:
+            da lista. Ele insere um ou mais valores novos no início da lista:
 
 listaExemplo.unshift("Meu")
 ["Meu", "Aquele", "Aqui", "Aí", "Alí", "Acolá", "Isto", "Isso"]
@@ -110,8 +110,9 @@ Usando const ao invés de let, crie uma lista vazia chamada profissoes. Usando o
 método push, adicione nesta lista as profissões "programador(a)", "designer",
 "engenheiro(a)", "veterinário(a)" e "administrador(a)". Após adicionar os itens,
 envie a lista com as profissões adicionadas na resposta01.
-*/ let profissoes = [];
+*/ 
 // Array na linha abaixo
+let profissoes = [];
 // Operações necessárias e resposta a partir da linha abaixo
 profissoes.push("programador(a)", "designer", "engenheiro(a)", "veterinário(a)", "administrador(a)");
 export const resposta01 = profissoes
@@ -164,7 +165,7 @@ profissoes.reverse()
 export const resposta06 = profissoes;
 
 /* Questão 7
-Crie três listas vazias (usando const e não let), uma chamada "vertebrados", 
+Crie três listas vazias (usando let), uma chamada "vertebrados", 
 outra chamada "invertebrados", e a terceira chamada "animais". Use o método 
 push para adicionar na lista de "vertebrados" os animais "elefante", "leopardo" 
 e "porco-espinho", e na lista "invertebrados" use o mesmo método para adicionar 
@@ -172,8 +173,15 @@ os animais "polvo", "formiga" e "caranguejo". Por fim, use o método concat na
 lista "animais" para juntar o conteúdo das listas "vertebrado" e "invertebrado" 
 dentro de si, nesta exata ordem, e retorne esta lista na resposta07.
 */
+let vertebrados = []
+let invertebrados = []
+let animais = []
+
+vertebrados.push ("elefante", "leopardo", "porco-espinho")
+invertebrados.push ("polvo", "formiga", "caranguejo")
+let animais = animais.concat (vertebrados, invertebrados)
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta07 = false
+export const resposta07 = animais
 
 /* Questão 8
 Seguindo com a lista "animais" criada na questão 7, use os métodos pop e unshift
@@ -181,16 +189,23 @@ para fazer com que os animais inicialmente pertencentes a lista "invertebrados"
 fiquem na frente dos animais inicialmente pertencentes a lista de "vertebrados".
 Envie a lista animais modificada na resposta08.
 */
+animais.unshift(animais.pop());
+animais.unshift(animais.pop());
+animais.unshift(animais.pop());
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta08 = false
+export const resposta08 = animais
 
 /* Questão 9
 Ainda utilizando a lista "animais" da questão 7, use o método reverse na lista,
 e após isso use os métodos shift e push para mover os três itens da frente para
 o final da fila, um de cada vez. Envie a lista animais modificada na resposta09.
-*/
+*/ 
+animais.reverse()
+animais.shift(animais.push());
+animais.shift(animais.push());
+animais.shift(animais.push());
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta09 = false
+export const resposta09 = animais
 
 /* Questão 10
 Finalizando com a lista "animais" da questão 7, use o método concat na lista
@@ -199,8 +214,13 @@ na lista após adicionar estes animais, e use novamente o método concat para
 adicionar os animais "lesma", "borboleta" e "ostra" no final da lista.
 Envie a lista animais modificada na resposta10.
 */
+let temporario = ["carcará", "morcego", "salmão"];
+animais.concat(temporario);
+animais.reverse();
+let temporario2 = ["lesma", "borboleta", "ostra"]
+animais.concat(temporario2);
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta10 = false
+export const resposta10 = animais
 
 /* Questão 11
 Crie (usando const) uma lista vazia chamada "pedras", e use nela o método concat
