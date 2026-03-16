@@ -143,7 +143,7 @@ na lista de profissões para remover o atual primeiro item da lista e guardá-lo
 nesta variável. Envie a variável com a profissão removida na resposta04.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-let y = resposta01.shift()
+let y = profissoes.shift()
 export const resposta04 = y
 
 /* Questão 5
@@ -153,7 +153,7 @@ método "concat" na lista de profissões para adicionar esta nova lista no final
 da lista de profissões da questão 1. Envie a lista completa na resposta05
 */
 // Operações necessárias e resposta a partir da linha abaixo
-let lf1 = picanha + y
+let lf1 = [picanha, y]
 
 export const resposta05 = profissoes.concat(lf1)
 
@@ -174,7 +174,13 @@ lista "animais" para juntar o conteúdo das listas "vertebrado" e "invertebrado"
 dentro de si, nesta exata ordem, e retorne esta lista na resposta07.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta07 = false
+let vertebrados =[]
+let invertebrados = []
+let animais = []
+vertebrados.push("elefante", "leopardo" ,"porco-espinho")
+invertebrados.push("polvo", "formiga" , "caranguejo")
+animais = vertebrados.concat(invertebrados);
+export const resposta07 = animais
 
 /* Questão 8
 Seguindo com a lista "animais" criada na questão 7, use os métodos pop e unshift
@@ -183,6 +189,7 @@ fiquem na frente dos animais inicialmente pertencentes a lista de "vertebrados".
 Envie a lista animais modificada na resposta08.
 */
 // Operações necessárias e resposta a partir da linha abaixo
+animais.pop()
 export const resposta08 = false
 
 /* Questão 9
