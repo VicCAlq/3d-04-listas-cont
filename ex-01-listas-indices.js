@@ -180,7 +180,7 @@ e "manga", e armazene a lista modificada completa na variável "resposta05".
 let novo = minhaLista[2]
 minhaLista[2] = minhaLista[5]
 minhaLista[5] = novo
-export const resposta05 = minhaLista = ["maçã", "banana", "laranja", "uva", "pera", "manga"]
+export const resposta05 = ["maçã", "banana", "laranja", "uva", "pera", "manga"]
 
 /* Questão 6
 Crie um array (também com const ao invés de let) chamado "numeros" com os valores
