@@ -7,16 +7,13 @@
 |  5 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  6 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  7 | Ex 01 | ✅ | ✅ | Nenhum erro |
-|  8 | Ex 01 | ✅ | ❌ | AssertionError: expected 37 to be type of 'object'
- |
+|  8 | Ex 01 | ✅ | ❌ | AssertionError: expected 37 to be type of 'object' |
 |  9 | Ex 01 | ✅ | ✅ | Nenhum erro |
 | 10 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  1 | Ex 02 | ✅ | ✅ | Nenhum erro |
-|  2 | Ex 02 | ✅ | ❌ | AssertionError: expected [ , push: [ 'programador(a)', …(4) ] ] to be type of 'string'
- |
+|  2 | Ex 02 | ✅ | ❌ | AssertionError: expected [ , push: [ 'programador(a)', …(4) ] ] to be type of 'string' |
 |  3 | Ex 02 | ✅ | ✅ | Nenhum erro |
-|  4 | Ex 02 | ✅ | ❌ | AssertionError: expected [ , push: [ 'programador(a)', …(4) ] ] to be type of 'string'
- |
+|  4 | Ex 02 | ✅ | ❌ | AssertionError: expected [ , push: [ 'programador(a)', …(4) ] ] to be type of 'string' |
 |  5 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  6 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  7 | Ex 02 | ✅ | ✅ | Nenhum erro |
