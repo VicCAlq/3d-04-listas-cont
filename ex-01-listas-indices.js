@@ -145,6 +145,7 @@ Crie uma lista (com const) chamado "frutas" com os itens: "maçã", "banana", "l
 // Operações necessárias e resposta a partir da linha abaixo
 let frutas = ["maçã", "banana", "laranja", "uva", "pêra", "manga"]
 export const resposta01 = frutas[1]
+//👀
 
 /* Questão 2
 Ainda utilizando o array criado na questão 1, armazene na variável "resposta02"
