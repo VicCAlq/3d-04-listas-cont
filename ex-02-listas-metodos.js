@@ -137,8 +137,6 @@ para adicionar a profissão "músico(a)" no início da lista, e retorne
 a lista completa na resposta03.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-const profissoes = ["programador(a)", "designer",
-"engenheiro(a)", "veterinário(a)", "administrador(a)"]
 profissoes.unshift("músico(a)")
 export const resposta03 = profissoes
 
@@ -147,7 +145,7 @@ Ainda com a lista da questão 1, crie uma nova variável e use o método "shift"
 na lista de profissões para remover o atual primeiro item da lista e guardá-lo
 nesta variável. Envie a variável com a profissão removida na resposta04.
 */
-const itemRemovido = profissoes.shift()
+const itemRemovido2 = profissoes.shift()
 ["programador(a)", "designer",
 "engenheiro(a)", "veterinário(a)", "administrador(a)"]
 itemRemovido === "programador(a)"
@@ -168,8 +166,7 @@ Finalizando com a lista da questão 1, use nela o método reverse para inverter
 a ordem da lista, e envie a lista com sua ordem invertida na resposta06.
 
 */
-const profissoes = ["programador(a)", "designer",
-"engenheiro(a)", "veterinário(a)", "administrador(a)"]
+
 profissoes.reverse()
 
 // Operações necessárias e resposta a partir da linha abaixo
