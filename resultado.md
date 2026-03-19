@@ -1,4 +1,4 @@
 | Questão | Exercício | Entregue | Correto | Mensagem de erro |
 |---------|-----------|----------|---------|------------------|
-| nulo | Ex 1 | nulo | nulo | limão is not defined |
-| nulo | Ex 2 | nulo | nulo | Identifier 'animais' has already been declared |
+| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | limão is not defined |
+| ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | Identifier 'animais' has already been declared |
