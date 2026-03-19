@@ -7,8 +7,7 @@
 |  4 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  5 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  6 | Ex 01 | ✅ | ✅ | Nenhum erro |
-|  7 | Ex 01 | ✅ | ❌ | AssertionError: expected 1 to be type of 'object'
- |
+|  7 | Ex 01 | ✅ | ❌ | AssertionError: expected 1 to be type of 'object' |
 |  8 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  9 | Ex 01 | ✅ | ✅ | Nenhum erro |
 | 10 | Ex 01 | ✅ | ✅ | Nenhum erro |
