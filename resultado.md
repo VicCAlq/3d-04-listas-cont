@@ -1,6 +1,6 @@
 | Questão | Exercício | Entregue | Correto | Mensagem de erro |
 |---------|-----------|----------|---------|------------------|
-| nulo | Ex 2 | nulo | nulo | Identifier 'resposta09' has already been declared |
+| ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | Identifier 'resposta09' has already been declared |
 |  1 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  2 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  3 | Ex 01 | ✅ | ✅ | Nenhum erro |
