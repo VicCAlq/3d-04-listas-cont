@@ -177,7 +177,7 @@ e "manga", e armazene a lista modificada completa na variável "resposta05".
 */
 // Operações necessárias e resposta a partir da linha abaixo
 ;[frutas[2], frutas[5]] = [frutas[5], frutas[2]]
-export const resposta05 = false
+export const resposta05 = frutas
 
 /* Questão 6
 Crie um array (também com const ao invés de let) chamado "numeros" com os valores
@@ -220,7 +220,7 @@ const soma = numeros[0]
 + numeros[5]
 + numeros[6]
 numeros[numeros.length] = soma
-export const resposta08 = false
+export const resposta08 = numeros
 
 /* Questão 9
 Ainda com a lista da questão 7, mude:
