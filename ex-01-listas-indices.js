@@ -197,16 +197,16 @@ de modo que a lista se torne 1, 7, 2, 4, 9, 8, 6. Armazene a lista na
 variável "resposta07"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-let temp = numero[numero.length-1]
-numero[6] = numero[5]
-numero[5] = numero[4]
-numero[4] = numero[3]
-numero[3] = numero[2]
-numero[2] = numero[1]
-numero[1] = numero[0]
-numero[0] = temp
+let temp = numeros[numeros.length-1]
+numeros[6] = numeros[5]
+numeros[5] = numeros[4]
+numeros[4] = numeros[3]
+numeros[3] = numeros[2]
+numeros[2] = numeros[1]
+numeros[1] = numeros[0]
+numeros[0] = temp
 
-export const resposta07 = numero
+export const resposta07 = numeros
 
 /* Questão 8
 Continuando com a lista da questão 7, adicione no final da lista o resultado
@@ -214,14 +214,14 @@ da soma de todos os números anteriores da lista. Retorne a lista completa na
 variável "resultado08". É proibido usar métodos de listas e funções.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-let soma = numero[0] + 
-           numero[1] +
-           numero[2] +
-           numero[3] +
-           numero[4] +
-           numero[5] +
-           numero[6] 
-numero.push(soma)
+let soma = numeros[0] + 
+           numeros[1] +
+           numeros[2] +
+           numeros[3] +
+           numeros[4] +
+           numeros[5] +
+           numeros[6] 
+numeros.push(soma)
 export const resposta08 = false
 
 /* Questão 9
@@ -232,9 +232,9 @@ Ainda com a lista da questão 7, mude:
 E retorne a lista completa na variável "resultado09"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-;[numero[1], numero[3], numero[5] ] = [numero[5], numero[1], numero[3]]
-export const resposta09 = numero
-/* teste */
+;[numeros[1], numeros[3], numeros[5] ] = [numeros[5], numeros[1], numeros[3]]
+export const resposta09 = numeros
+
 /* Questão 10
 Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 - O primeiro item da nova lista é o último da anterior
@@ -246,3 +246,4 @@ let  novaLista = [numeros[6],numeros[5],numeros[4]]
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta10 = novaLista
 
+/* teste */
