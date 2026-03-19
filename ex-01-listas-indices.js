@@ -218,9 +218,14 @@ da soma de todos os números anteriores da lista. Retorne a lista completa na
 variável "resultado08". É proibido usar métodos de listas e funções.
 */
 // Operações necessárias e resposta a partir da linha abaixob
-let bixiga = numeru[6] + numeru[0] + numeru[1] + numeru[2] + numeru[3] + numeru[4] + numeru[5]
-numeru[numeru.length] = bixiga
-export const resposta08 = numeru
+const bixiga = numeros[6] 
++ numeros[0] 
++ numeros[1] 
++ numeros[2] 
++ numeros[3] 
++ numeros[4] 
++ numeros[5]
+export const resposta08 = bixiga
 
 
 /* Questão 9
@@ -244,3 +249,4 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta10 = false
 
+// azideia menor
