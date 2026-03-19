@@ -7,7 +7,7 @@
 |  5 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  6 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  7 | Ex 01 | ✅ | ✅ | Nenhum erro |
-|  8 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  8 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  9 | Ex 01 | ✅ | ✅ | Nenhum erro |
 | 10 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  1 | Ex 02 | ✅ | ✅ | Nenhum erro |
