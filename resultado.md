@@ -1,6 +1,6 @@
 | Questão | Exercício | Entregue | Correto | Mensagem de erro |
 |---------|-----------|----------|---------|------------------|
-| nulo | Ex 1 | nulo | nulo | Cannot create property 'undefined' on number '1' |
+| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Cannot create property 'undefined' on number '1' |
 |  1 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  2 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  3 | Ex 02 | ✅ | ✅ | Nenhum erro |
