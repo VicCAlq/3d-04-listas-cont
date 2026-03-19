@@ -218,7 +218,8 @@ da soma de todos os números anteriores da lista. Retorne a lista completa na
 variável "resultado08". É proibido usar métodos de listas e funções.
 */
 // Operações necessárias e resposta a partir da linha abaixob
-const bixiga = numeros[6] 
+let bixiga = []
+bixiga = numeros[6]
 + numeros[0] 
 + numeros[1] 
 + numeros[2] 
