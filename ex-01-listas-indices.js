@@ -234,7 +234,7 @@ E retorne a lista completa na variável "resultado09"
 // Operações necessárias e resposta a partir da linha abaixo
 ;[numero[1], numero[3], numero[5] ] = [numero[5], numero[1], numero[3]]
 export const resposta09 = numero
-
+/* teste */
 /* Questão 10
 Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 - O primeiro item da nova lista é o último da anterior
