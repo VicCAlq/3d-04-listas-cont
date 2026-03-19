@@ -222,7 +222,7 @@ let soma = numeros[0] +
            numeros[5] +
            numeros[6] 
 numeros.push(soma)
-export const resposta08 = false
+export const resposta08 = numeros
 
 /* Questão 9
 Ainda com a lista da questão 7, mude:
