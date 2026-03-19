@@ -1,6 +1,6 @@
 | Questão | Exercício | Entregue | Correto | Mensagem de erro |
 |---------|-----------|----------|---------|------------------|
-| nulo | Ex 1 | nulo | nulo | Parse failure: Expression expected
+| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Parse failure: Expression expected
 At file: /ex-01-listas-indices.js:195:89 |
 |  1 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean'
     at /home/vicmca/CodeProjects/School/materiais/atividades/3d-04-listas-cont/ex02.test.js:45:34
