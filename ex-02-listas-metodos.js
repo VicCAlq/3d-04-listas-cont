@@ -172,8 +172,14 @@ os animais "polvo", "formiga" e "caranguejo". Por fim, use o método concat na
 lista "animais" para juntar o conteúdo das listas "vertebrado" e "invertebrado" 
 dentro de si, nesta exata ordem, e retorne esta lista na resposta07.
 */
+let vertebrados = []
+let invertebrados = []
+
+vertebrados.push ("elefante", "leopardo", "porco-espinho")
+invertebrados.push ("polvo", "formiga", "caranguejo")
+let animais = animais.concat (vertebrados, invertebrados)
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta07 = false
+export const resposta07 = animais
 
 /* Questão 8
 Seguindo com a lista "animais" criada na questão 7, use os métodos pop e unshift
@@ -181,16 +187,22 @@ para fazer com que os animais inicialmente pertencentes a lista "invertebrados"
 fiquem na frente dos animais inicialmente pertencentes a lista de "vertebrados".
 Envie a lista animais modificada na resposta08.
 */
+animais.unshift(animais.pop());
+animais.unshift(animais.pop());
+animais.unshift(animais.pop());
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta08 = false
-
+export const resposta08 = animais
 /* Questão 9
 Ainda utilizando a lista "animais" da questão 7, use o método reverse na lista,
 e após isso use os métodos shift e push para mover os três itens da frente para
 o final da fila, um de cada vez. Envie a lista animais modificada na resposta09.
 */
+animais.reverse()
+animais.shift(animais.push());
+animais.shift(animais.push());
+animais.shift(animais.push());
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta09 = false
+export const resposta09 = animais
 
 /* Questão 10
 Finalizando com a lista "animais" da questão 7, use o método concat na lista
@@ -199,8 +211,13 @@ na lista após adicionar estes animais, e use novamente o método concat para
 adicionar os animais "lesma", "borboleta" e "ostra" no final da lista.
 Envie a lista animais modificada na resposta10.
 */
+let temporario = ["carcará", "morcego", "salmão"];
+animais.concat(temporario);
+animais.reverse();
+let temporario2 = ["lesma", "borboleta", "ostra"]
+animais.concat(temporario2);
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta10 = false
+export const resposta10 = animais
 
 /* Questão 11
 Crie (usando const) uma lista vazia chamada "pedras", e use nela o método concat

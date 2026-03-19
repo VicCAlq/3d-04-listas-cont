@@ -151,7 +151,6 @@ o último item da lista. Use a propriedade "length" para auxiliar a encontrar
 o índice deste último item.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-let resposta02 = frutas
 export const resposta02 = frutas [frutas.length - 1]
 
 /* Questão 3
