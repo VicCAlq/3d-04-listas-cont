@@ -229,7 +229,7 @@ reverse nessa lista, e após isso use o método push para adicionar os itens
 "calcário", "mármore" e "mica". Use o método reverse novamente, e envie a lista
 final na resposta11.
 */ let pedras = []
-pedras = pedras.push ("quartzo", "basalto", "granito")
+pedras = pedras.push("quartzo", "basalto", "granito")
 pedras.reverse()
 pedras = pedras.push("calcário", "mármore", "mica")
 pedras.reverse()
