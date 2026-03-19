@@ -145,7 +145,7 @@ Crie uma lista (com const) chamado "frutas" com os itens: "maçã", "banana", "l
 // Operações necessárias e resposta a partir da linha abaixo
 const frutas = ["maçã", "banana", "laranja", "uva", "pêra", "manga"]
 export const resposta01 = frutas[1]
-//cant let them hold me
+
 /* Questão 2
 Ainda utilizando o array criado na questão 1, armazene na variável "resposta02"
 o último item da lista. Use a propriedade "length" para auxiliar a encontrar
@@ -235,3 +235,4 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta10 = false
 
+//teste
