@@ -106,7 +106,7 @@ MÍNIMO NECESSÁRIO PARA NOTA MÁXIMA: 10 questões
 */
 
 /* Questão 1
-Usando let ao invés de let, crie uma lista vazia chamada profissoes. Usando o
+Usando const ao invés de let, crie uma lista vazia chamada profissoes. Usando o
 método push, adicione nesta lista as profissões "programador(a)", "designer",
 "engenheiro(a)", "veterinário(a)" e "administrador(a)". Após adicionar os itens,
 envie a lista com as profissões adicionadas na resposta01.
