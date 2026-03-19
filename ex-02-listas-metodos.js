@@ -154,8 +154,8 @@ da lista de profissões da questão 1. Envie a lista completa na resposta05
 */
 // Operações necessárias e resposta a partir da linha abaixo
 const lista2 =["administrador(a)","programador(a)"]
-const profissoes =["designer", "engenheiro(a)", "veterinário(a)"]
-lista2.concat(profissoes)
+const profissoess =["designer", "engenheiro(a)", "veterinário(a)"]
+lista2.concat(profissoess)
 export const resposta05 = ["administrador(a)","programador(a)","designer", "engenheiro(a)", "veterinário(a)"]
 
 /* Questão 6
@@ -181,7 +181,7 @@ const vertebrados = []
 vertebrados.push("elefantes","leopardo","porco-espinho")
 const invertebrados = []
 invertebrados.push("polvo","formiga","caranguejo")
-const animais = []
+const animai = []
 animais.concat(vertebrados,invertebrados)
 export const resposta07 = ["elefantes","leopardo","porco-espinho","polvo","formiga","caranguejo"]
 
@@ -192,9 +192,9 @@ fiquem na frente dos animais inicialmente pertencentes a lista de "vertebrados".
 Envie a lista animais modificada na resposta08.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-const polvo = animais.pop()
-const formiga = animais.pop()
-const caranguejo = animais.pop()
+const polvoo = animais.pop()
+const formigaa = animais.pop()
+const caranguejoo = animais.pop()
 animais.unshift("polvo","formiga","caranguejo")
 export const resposta08 = ["polvo","formiga","caranguejo","elefantes","leopardo","porco-espinho"]
 
@@ -204,11 +204,11 @@ e após isso use os métodos shift e push para mover os três itens da frente pa
 o final da fila, um de cada vez. Envie a lista animais modificada na resposta09.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-const animais = ["elefantes","leopardo","porco-espinho","polvo","formiga","caranguejo"]
+const animas = ["elefantes","leopardo","porco-espinho","polvo","formiga","caranguejo"]
 animais.reverse()
-const polvo = animais.shift()
-const formiga =animais.shift()
-const caranguejo =animais.shift()
+const polv = animais.shift()
+const formig =animais.shift()
+const caranguej =animais.shift()
 animais.push("polvo")
 animais.push("formiga")
 animais.push("caranguejo")
@@ -222,13 +222,13 @@ adicionar os animais "lesma", "borboleta" e "ostra" no final da lista.
 Envie a lista animais modificada na resposta10.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-const animais = ["elefantes","leopardo","porco-espinho","polvo","formiga","caranguejo"]
+const anmais = ["elefantes","leopardo","porco-espinho","polvo","formiga","caranguejo"]
 const n1 = ["carcará","morcego","salmão"]
 animais.concat(n1)
 animais.reverse()
 ["formiga","caranguejo","carcará","morcego","salmão","elefantes","leopardo","porco-espinho","polvo"]
 const n2 = ["lesma", "boboleta","ostra"]
-animais.concat(n2)
+anmais.concat(n2)
 export const resposta10 = ["formiga","caranguejo","carcará","morcego","salmão","elefantes","leopardo","porco-espinho","polvo","lesma", "boboleta","ostra"]
 
 /* Questão 11

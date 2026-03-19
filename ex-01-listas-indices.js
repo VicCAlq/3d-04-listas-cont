@@ -190,7 +190,7 @@ número no índice zero multiplicado pelo item no penúltimo índice.
 // Array na linha abaixo
 
 // Operações necessárias e resposta a partir da linha abaixo
-const numeros = ["7","2","4","9","8","6","1"]
+const nmeros = ["7","2","4","9","8","6","1"]
 export const resposta06 = 42
 
 /* Questão 7
@@ -200,7 +200,7 @@ de modo que a lista se torne 1, 7, 2, 4, 9, 8, 6. Armazene a lista na
 variável "resposta07"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-const numeros = ["7","2","4","9","8","6","1"]
+const numeross = ["7","2","4","9","8","6","1"]
 
 export const resposta07 = 
 
