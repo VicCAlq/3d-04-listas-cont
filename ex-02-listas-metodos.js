@@ -279,3 +279,4 @@ let p6 = pedras.pop()
 let removidos = [p1, p2, p3, p4, p5, p6]
 export const resposta14 = removidos
 
+// comentário solicitado
