@@ -242,3 +242,4 @@ const lista = [
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta10 = lista
 
+// diego enviou
