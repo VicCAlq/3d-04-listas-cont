@@ -241,7 +241,14 @@ adicionar os animais "lesma", "borboleta" e "ostra" no final da lista.
 Envie a lista animais modificada na resposta10.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta10 = false
+
+let bixos = ["carcará", "morcego", "salmão"]
+let bixo = ["lesma", "borboleta", "ostra"]
+
+animais.concat(bixos)
+animais.reverse()
+animais.concat(bixo)
+export const resposta10 = animais
 
 /* Questão 11
 Crie (usando const) uma lista vazia chamada "pedras", e use nela o método concat
@@ -251,7 +258,16 @@ reverse nessa lista, e após isso use o método push para adicionar os itens
 final na resposta11.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta11 = false
+
+let pedras = []
+let outras = ["quartzo", "basalto", "granito"]
+pedras.concat(outras)
+pedras.reverse()
+pedras.push("calcário")
+pedras.push("mármore")
+pedras.push("mica")
+pedras.reverse()
+export const resposta11 = pedras
 
 /* Questão 12
 Continuando com a lista criada na questão 11, use o método unshift para adicionar
@@ -260,7 +276,15 @@ questão. Use o método "concat" para adicionar os itens "topázio", "lazurita" 
 "ônix" ao final desta lista, e retorne-a na resposta12.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta12 = false
+let pedrasDois = ["topázio", "lazurita", "ônix"]
+
+pedras.unshift("jade") 
+pedras.unshift("obsidiana")
+pedras.unshift("zircônio")
+pedras.concat(pedrasDois)
+
+
+export const resposta12 = pedras
 
 /* Questão 13
 Seguindo com a lista de pedras, use os métodos shift e pop para mover os três
@@ -268,12 +292,22 @@ primeiros itens para o final da lista. Após isso, aplique o método reverse, e
 envie a lista na resposta13.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta13 = false
+let primeiros = [pedras.shift(), pedras.shift(),pedras.shift()]
+let ultimos = [pedras.pop(),pedras.pop(),pedras.pop()]
+
+pedras.unshift(ultimos)
+pedras.push(primeiros)
+pedras.reverse()
+
+
+export const resposta13 = pedras
 
 /* Questão 14
 Finalizando com a lista de pedras, use o método pop para remover os 6 itens finais
 da lista e armazene-os em uma lista nova. Envie esta lista nova na resposta 14.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta14 = false
+let expedras = [pedras.pop(), pedras.pop(), pedras.pop(), pedras.pop(), pedras.pop(), pedras.pop()]
 
+
+export const resposta14 = expedras
