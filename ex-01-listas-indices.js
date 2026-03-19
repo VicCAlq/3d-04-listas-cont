@@ -14,7 +14,7 @@ Para criar uma lista, basta criar uma variável e atribuir a ela um conjunto de 
 agrupados com colchetes:
 
 const minhaLista = ["item 1", "segundo item", "3º", "item quatro"]
-
+limão
 Na lista acima, temos 4 itens. Para acessarmos a lista completa, basta utilizar o nome
 da lista como se faz para qualquer variável:
 
@@ -165,7 +165,7 @@ Ainda com a lista da questão 1, acrescente a fruta "limão" no final da lista, 
 envie a lista inteira na variável "resposta04".
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta04 = frutas[limão] = frutas[frutas.length -1]
+export const resposta04 = frutas[limao] = frutas[frutas.length -1]
 
 /* Questão 5
 Para finalizar com o array da questão 1, troque as posições dos itens "laranja"

@@ -152,7 +152,7 @@ método "concat" na lista de profissões para adicionar esta nova lista no final
 da lista de profissões da questão 1. Envie a lista completa na resposta05
 */ 
 let removidos = []
-removidos.push[itemRe]
+removidos.push[itemRemovido]
 itemRemovido.concat(profissoes)
 excluPItem.concat(profissoes)
 // Operações necessárias e resposta a partir da linha abaixo
@@ -200,7 +200,7 @@ export const resposta08 = animais
 /* Questão 9
 Ainda utilizando a lista "animais" da questão 7, use o método reverse na lista,
 e após isso use os métodos shift e push para mover os três itens da frente para
-o final da fila, um de cada vez. Envie a lista animais modificada na resposta09.
+o final da fila, um de cada vez. Envie a lista animais modificada na resposta09.itemRe
 */
 animais.reverse()
 animais.push(animais.shift());
