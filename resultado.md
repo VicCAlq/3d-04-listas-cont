@@ -1,6 +1,6 @@
 | Questão | Exercício | Entregue | Correto | Mensagem de erro |
 |---------|-----------|----------|---------|------------------|
-| nulo | Ex 2 | nulo | nulo | removidoPush is not defined |
+| ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | removidoPush is not defined |
 |  1 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  2 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  3 | Ex 01 | ✅ | ✅ | Nenhum erro |
