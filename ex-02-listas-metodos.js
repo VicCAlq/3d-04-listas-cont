@@ -161,8 +161,8 @@ Finalizando com a lista da questão 1, use nela o método reverse para inverter
 a ordem da lista, e envie a lista com sua ordem invertida na resposta06.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-profissoesAtualizada.reverse();
-export const resposta06 = profissoesAtualizada
+profissoes.reverse();
+export const resposta06 = profissoes
 
 /* Questão 7
 Crie três listas vazias (usando let e não let), uma chamada "vertebrados", 
