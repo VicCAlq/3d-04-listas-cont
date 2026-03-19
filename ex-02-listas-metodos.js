@@ -144,8 +144,8 @@ na lista de profissões para remover o atual primeiro item da lista e guardá-lo
 nesta variável. Envie a variável com a profissão removida na resposta04.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-profissoes.shift()
-export const resposta04 = profissoes
+let caixa = profissoes.shift()
+export const resposta04 = caixa
 
 /* Questão 5
 Continuando com a lista da questão 1, crie uma lista com as profissões removidas

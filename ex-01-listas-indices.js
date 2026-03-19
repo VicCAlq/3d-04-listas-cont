@@ -143,8 +143,9 @@ Crie uma lista (com const) chamado "frutas" com os itens: "maçã", "banana", "l
 // Array na linha abaixo
 
 // Operações necessárias e resposta a partir da linha abaixo
-const frutas = ["maçã", "banana", "laranja", "uva", "pêra", "manga"]
+let frutas = ["maçã", "banana", "laranja", "uva", "pêra", "manga"]
 export const resposta01 = frutas[1]
+
 
 /* Questão 2
 Ainda utilizando o array criado na questão 1, armazene na variável "resposta02"
@@ -160,7 +161,7 @@ a fruta "abacaxi". Na variável "resposta03" envie a lista completa com a nova f
 */
 // Operações necessárias e resposta a partir da linha abaixo
 frutas[3] = "abacaxi"
-export const resposta03 = frutas[3]
+export const resposta03 = frutas 
 
 /* Questão 4
 Ainda com a lista da questão 1, acrescente a fruta "limão" no final da lista, e
@@ -168,14 +169,14 @@ envie a lista inteira na variável "resposta04".
 */
 // Operações necessárias e resposta a partir da linha abaixo
 frutas.push = "limão"
-export const resposta04 = frutas[6]
+export const resposta04 = frutas
 
 /* Questão 5
 Para finalizar com o array da questão 1, troque as posições dos itens "laranja"
 e "manga", e armazene a lista modificada completa na variável "resposta05".
 */
 // Operações necessárias e resposta a partir da linha abaixo
-[ frutas[2], frutas[5] ] = [ frutas[5], frutas[2] ]
+;[ frutas[2], frutas[5] ] = [ frutas[5], frutas[2] ]
 export const resposta05 = frutas
 
 /* Questão 6
@@ -186,7 +187,7 @@ número no índice zero multiplicado pelo item no penúltimo índice.
 // Array na linha abaixo
 
 // Operações necessárias e resposta a partir da linha abaixo
-const numeros = [7, 2, 4, 9, 8, 6, 1]
+let numeros = [7, 2, 4, 9, 8, 6, 1]
 export const resposta06 = numeros[0] * numeros[5]
 
 /* Questão 7
@@ -196,6 +197,7 @@ de modo que a lista se torne 1, 7, 2, 4, 9, 8, 6. Armazene a lista na
 variável "resposta07"
 */
 // Operações necessárias e resposta a partir da linha abaixo
+
 let temp = numeros[numeros.length - 1]
 numeros[6] = numeros[5]
 numeros[5] = numeros[4]
