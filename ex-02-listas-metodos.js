@@ -229,3 +229,4 @@ da lista e armazene-os em uma lista nova. Envie esta lista nova na resposta 14.
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta14 = false
 
+// bolinha de golfe//
