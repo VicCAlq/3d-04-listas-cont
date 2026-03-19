@@ -248,7 +248,7 @@ questão. Use o método "concat" para adicionar os itens "topázio", "lazurita" 
 pedras.unshift("jade")
 pedras.unshift("obsidiana")
 pedras.unshift("zircônio")
-pedras = pedras.concat(""topázio", "lazurita", "ônix")
+pedras = pedras.concat("topázio", "lazurita", "ônix")
 export const resposta12 = pedras
 
 /* Questão 13
