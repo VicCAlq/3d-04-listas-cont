@@ -216,33 +216,38 @@ para adicionar os itens "quartzo", "basalto" e "granito". Use o método
 reverse nessa lista, e após isso use o método push para adicionar os itens
 "calcário", "mármore" e "mica". Use o método reverse novamente, e envie a lista
 final na resposta11.
-*/let pedras = [].concat("quartzo", "basalto", "granito");
+*/
+
+let pedras = []
+pedras = pedras.push("quartzo", "basalto", "granito");
 pedras.reverse();
-pedras.push("calcário", "mármore", "mica");
+pedras = pedras.push("calcário", "mármore", "mica");
 pedras.reverse();
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta11 = pedras;
+export const resposta11 = pedras
 
 /* Questão 12
 Continuando com a lista criada na questão 11, use o método unshift para adicionar
 os itens "jade", "obsidiana" e "zircônio", um de cada vez, na ordem informada na 
 questão. Use o método "concat" para adicionar os itens "topázio", "lazurita" e 
 "ônix" ao final desta lista, e retorne-a na resposta12.
-*/let pedras = [...resposta11];
+*/
+pedras.unshift("jade");
 pedras.unshift("obsidiana");
 pedras.unshift("zircônio");
-let resposta12 = pedras.concat("topázio", "lazurita", "ônix");
+pedras = pedras.concat(["topázio", "lazurita", "ônix"]);
 // Operações necessárias e resposta a partir da linha abaixo
-export const { resposta12 };
+export const resposta12 = pedras
 
 /* Questão 13
 Seguindo com a lista de pedras, use os métodos shift e pop para mover os três
 primeiros itens para o final da lista. Após isso, aplique o método reverse, e
 envie a lista na resposta13.
-*/let pedras = [];
-pedras = pedras.push(pedras.shift());
-pedras = pedras.push(pedras.shift());
-pedras = pedras.push(pedras.shift());
+*/
+pedras = [];
+pedras.push(pedras.shift());
+pedras.push(pedras.shift());
+pedras.push(pedras.shift());
 pedras.reverse();
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta13 = pedras;
@@ -250,16 +255,15 @@ export const resposta13 = pedras;
 /* Questão 14
 Finalizando com a lista de pedras, use o método pop para remover os 6 itens finais
 da lista e armazene-os em uma lista nova. Envie esta lista nova na resposta 14.
-*/let pedras = [...resposta13];
-let removidos = [];
-removidos.push(pedras.pop());
-removidos.push(pedras.pop());
-removidos.push(pedras.pop());
-removidos.push(pedras.pop());
-removidos.push(pedras.pop());
-removidos.push(pedras.pop());
+*/let expedras = []
+expedras.push(pedras.shift())
+expedras.push(pedras.shift())
+expedras.push(pedras.shift())
+expedras.push(pedras.shift())
+expedras.push(pedras.shift())
+expedras.push(pedras.shift())
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta14 = removidos;
+export const resposta14 = expedras;
 
 
 
