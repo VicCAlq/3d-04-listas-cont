@@ -244,3 +244,4 @@ const lista = [numeros[numeros.lenght-1], numeros[numeros.lenght-2], numeros[num
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta10 = lista
 
+// por favor cicero dias, adquira mais pcs
