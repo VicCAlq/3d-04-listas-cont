@@ -204,7 +204,7 @@ numeros[3] = numeros[2];
 numeros[2] = numeros[1];
 numeros[1] = numeros[0];
 numeros[0] = novoNumeros;
-export const resposta07 = novoNumeros;
+export const resposta07 = novoNumeros;  
 
 /* Questão 8
 Continuando com a lista da questão 7, adicione no final da lista o resultado
