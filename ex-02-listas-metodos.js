@@ -273,4 +273,4 @@ ultimosSeis.push(pedrasDoze.pop());
 ultimosSeis.push(pedrasDoze.pop());
 export const resposta14 = ultimosSeis
 
-//teste
+
