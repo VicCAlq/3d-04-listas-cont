@@ -231,7 +231,7 @@ reverse nessa lista, e após isso use o método push para adicionar os itens
 final na resposta11.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-const pedras = []
+let pedras = []
 pedras.concat("quartzo", "basalto", "granito")
 pedras.reverse()
 pedras.concat("calcário", "mármore", "mica")
