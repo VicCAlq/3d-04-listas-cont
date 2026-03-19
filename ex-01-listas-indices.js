@@ -196,7 +196,6 @@ de modo que a lista se torne 1, 7, 2, 4, 9, 8, 6. Armazene a lista na
 variável "resposta07"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-const numeros = [7, 2, 4, 9, 8, 6, 1]
 let temp = numeros[numeros.length - 1]
 numeros[6] = numeros[5]
 numeros[5] = numeros[4]
