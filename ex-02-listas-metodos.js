@@ -125,7 +125,7 @@ resposta02.
 */
 // Operações necessárias e resposta a partir da linha abaixo
 let ultimo = profissoes.pop();
-export const resposta02 = profissoes
+export const resposta02 = ultimo
 
 /* Questão 3
 Seguindo com a mesma lista de profissões da questão 1, use o método unshift
@@ -143,7 +143,7 @@ nesta variável. Envie a variável com a profissão removida na resposta04.
 */
 // Operações necessárias e resposta a partir da linha abaixo
 let exprimeiro = profissoes.shift();
-export const resposta04 = profissoes
+export const resposta04 = exprimeiro
 
 /* Questão 5
 Continuando com a lista da questão 1, crie uma lista com as profissões removidas
@@ -153,7 +153,8 @@ da lista de profissões da questão 1. Envie a lista completa na resposta05
 */
 // Operações necessárias e resposta a partir da linha abaixo
 let profissoesremovidas = [ultimo].concat(exprimeiro)
-export const resposta05 = profissoesremovidas
+profissoes = profissoes.concat(profissoesremovidas)
+export const resposta05 = profissoes
 
 /* Questão 6
 Finalizando com a lista da questão 1, use nela o método reverse para inverter
