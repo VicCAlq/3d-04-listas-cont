@@ -151,9 +151,12 @@ pelos métodos "pop" e "shift" nas questões 2 e 4 (nesta exata ordem), e use o
 método "concat" na lista de profissões para adicionar esta nova lista no final 
 da lista de profissões da questão 1. Envie a lista completa na resposta05
 */ 
-let removidos = itemRemovido.concat(excluPItem)
+let removidos = []
+removidos.push[itemRe]
+itemRemovido.concat(profissoes)
+excluPItem.concat(profissoes)
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta05 = removidos;
+export const resposta05 = profissoes;
 
 /* Questão 6
 Finalizando com a lista da questão 1, use nela o método reverse para inverter
@@ -173,11 +176,13 @@ lista "animais" para juntar o conteúdo das listas "vertebrado" e "invertebrado"
 dentro de si, nesta exata ordem, e retorne esta lista na resposta07.
 */
 let vertebrados = []
-let invertebrados = []
-
 vertebrados.push ("elefante", "leopardo", "porco-espinho")
+
+let invertebrados = []
 invertebrados.push ("polvo", "formiga", "caranguejo")
-let animais = animais.concat (vertebrados, invertebrados)
+
+let animais = [] 
+animais = animais.concat (vertebrados, invertebrados)
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta07 = animais
 
@@ -198,9 +203,9 @@ e após isso use os métodos shift e push para mover os três itens da frente pa
 o final da fila, um de cada vez. Envie a lista animais modificada na resposta09.
 */
 animais.reverse()
-animais.shift(animais.push());
-animais.shift(animais.push());
-animais.shift(animais.push());
+animais.push(animais.shift());
+animais.push(animais.shift());
+animais.push(animais.shift());
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta09 = animais
 
@@ -211,11 +216,9 @@ na lista após adicionar estes animais, e use novamente o método concat para
 adicionar os animais "lesma", "borboleta" e "ostra" no final da lista.
 Envie a lista animais modificada na resposta10.
 */
-let temporario = ["carcará", "morcego", "salmão"];
-animais.concat(temporario);
+animais = animais (["carcará", "morcego", "salmão"]);
 animais.reverse();
-let temporario2 = ["lesma", "borboleta", "ostra"]
-animais.concat(temporario2);
+animais = animais.concat(["lesma", "borboleta", "ostra"])
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta10 = animais
 
@@ -225,9 +228,13 @@ para adicionar os itens "quartzo", "basalto" e "granito". Use o método
 reverse nessa lista, e após isso use o método push para adicionar os itens
 "calcário", "mármore" e "mica". Use o método reverse novamente, e envie a lista
 final na resposta11.
-*/
+*/ let pedras = []
+pedras = pedras.push ("quartzo", "basalto", "granito")
+pedras.reverse()
+pedras = pedras.push("calcário", "mármore", "mica")
+pedras.reverse()
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta11 = false
+export const resposta11 = pedras
 
 /* Questão 12
 Continuando com a lista criada na questão 11, use o método unshift para adicionar
@@ -236,20 +243,37 @@ questão. Use o método "concat" para adicionar os itens "topázio", "lazurita" 
 "ônix" ao final desta lista, e retorne-a na resposta12.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta12 = false
+pedras.unshift("jade")
+pedras.unshift("obsidiana")
+pedras.unshift("zircônio")
+pedras = pedras.concat(["topázio", "lazurita", 
+"ônix"])
+export const resposta12 = pedras
 
 /* Questão 13
 Seguindo com a lista de pedras, use os métodos shift e pop para mover os três
 primeiros itens para o final da lista. Após isso, aplique o método reverse, e
 envie a lista na resposta13.
 */
+pedras.push(pedras.shift())
+pedras.push(pedras.shift())
+pedras.push(pedras.shift())
+pedras.reverse()
+
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta13 = false
+export const resposta13 = pedras
 
 /* Questão 14
 Finalizando com a lista de pedras, use o método pop para remover os 6 itens finais
 da lista e armazene-os em uma lista nova. Envie esta lista nova na resposta 14.
 */
+let expedras = []
+expedras.push(pedras.shift());
+expedras.push(pedras.shift());
+expedras.push(pedras.shift());
+expedras.push(pedras.shift());
+expedras.push(pedras.shift());
+expedras.push(pedras.shift());
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta14 = false
+export const resposta14 = expedras
 
