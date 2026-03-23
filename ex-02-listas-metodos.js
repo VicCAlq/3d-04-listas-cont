@@ -195,7 +195,15 @@ fiquem na frente dos animais inicialmente pertencentes a lista de "vertebrados".
 Envie a lista animais modificada na resposta08.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta08 = false
+
+const a1 = animais.pop()
+const a2 = animais.pop()
+const a3 = animais.pop()
+
+animais.unshift(a3, a2, a1)
+
+export const resposta08 = animais
+
 
 /* Questão 9
 Ainda utilizando a lista "animais" da questão 7, use o método reverse na lista,
@@ -203,7 +211,14 @@ e após isso use os métodos shift e push para mover os três itens da frente pa
 o final da fila, um de cada vez. Envie a lista animais modificada na resposta09.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta09 = false
+
+
+animais.reverse(); 
+animais.push(animais.shift());
+animais.push(animais.shift());
+animais.push(animais.shift());
+export const resposta09 = animais
+
 
 /* Questão 10
 Finalizando com a lista "animais" da questão 7, use o método concat na lista
@@ -215,11 +230,14 @@ Envie a lista animais modificada na resposta10.
 // Operações necessárias e resposta a partir da linha abaixo
 
 
+let novaLista = animais.concat(["carcará", "morcego", "salmão"])
 
+novaLista.reverse()
 
+novaLista = novaLista.concat(["lesma", "borboleta", "ostra"])
 
+export const resposta10 = novaLista
 
-export const resposta10 = false
 
 /* Questão 11
 Crie (usando const) uma lista vazia chamada "pedras", e use nela o método concat
@@ -231,10 +249,16 @@ final na resposta11.
 // Operações necessárias e resposta a partir da linha abaixo
 
 
+const pedras = [].concat(["quartzo", "basalto", "granito"])
 
+pedras.reverse()
 
+pedras.push("calcário", "mármore", "mica")
 
-export const resposta11 = false
+pedras.reverse()
+
+export const resposta11 = pedras
+
 
 /* Questão 12
 Continuando com a lista criada na questão 11, use o método unshift para adicionar
@@ -256,13 +280,36 @@ primeiros itens para o final da lista. Após isso, aplique o método reverse, e
 envie a lista na resposta13.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta13 = false
+
+
+let p1 = pedras.shift()
+let p2 = pedras.shift()
+let p3 = pedras.shift()
+
+pedras.push(p1, p2, p3)
+
+pedras.reverse()
+
+export const resposta13 = pedras
+
 
 /* Questão 14
 Finalizando com a lista de pedras, use o método pop para remover os 6 itens finais
 da lista e armazene-os em uma lista nova. Envie esta lista nova na resposta 14.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta14 = false
+
+
+
+let ultimosSeis = [];
+ultimosSeis.push(pedrasDoze.pop());
+ultimosSeis.push(pedrasDoze.pop());
+ultimosSeis.push(pedrasDoze.pop());
+ultimosSeis.push(pedrasDoze.pop());
+ultimosSeis.push(pedrasDoze.pop());
+ultimosSeis.push(pedrasDoze.pop());
+export const resposta14 = ultimosSeis
+
+
 
 // bolinha de golfe//
