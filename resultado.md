@@ -1,4 +1,4 @@
-| Questão | Exercício | Entregue | Correto | Mensagem de erro |
+| Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
 | ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | Identifier 'resposta01' has already been declared |
 |  1 | Ex 01 | ✅ | ✅ | Nenhum erro |
