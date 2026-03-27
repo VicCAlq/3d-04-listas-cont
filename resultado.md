@@ -1,4 +1,13 @@
-| Questão | Exercício | Entregue | Correto | Mensagem de erro |
+| Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Identifier 'numeros' has already been declared |
-| ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | profissaoRemovidas is not defined |
+| ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | pedras.reverse is not a function |
+|  1 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  2 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  3 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  4 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  5 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  6 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  7 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  8 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  9 | Ex 01 | ✅ | ✅ | Nenhum erro |
+| 10 | Ex 01 | ✅ | ✅ | Nenhum erro |
