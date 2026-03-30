@@ -119,7 +119,7 @@ export const resposta01 = false
 /* Questão 1 */ 
 const profissoes = []; 
 profissoes.push("programador(a)", "designer", "engenheiro(a)", "veterinário(a)", "administrador(a)"); 
-export const resposta01 = profissoes; // Envia a lista com as profissões adicionadas
+export const resposta01 = profissoes;
 
 
 /* Questão 2
